@@ -1,6 +1,6 @@
 <template lang="pug">
 .about
-  h1 HEllo
+  h1 Hello
 </template>
 
 <style>

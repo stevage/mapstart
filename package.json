@@ -8,8 +8,12 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "map-gl-utils": "^0.43.0",
+    "mapbox-gl": "^2.10.0",
+    "maplibre-gl": "^2.4.0",
     "vue": "^3.2.41",
-    "vue-router": "^4.1.5"
+    "vue-router": "^4.1.5",
+    "wave-ui": "^2.43.2"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
