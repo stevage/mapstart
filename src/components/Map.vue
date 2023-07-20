@@ -18,7 +18,6 @@ export default {
       zoom: 14,
       style: "mapbox://styles/mapbox/light-v9",
     });
-    console.log("yep");
     U.init(map, mapboxgl);
     window.map = map;
     window.app.Map = this;

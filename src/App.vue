@@ -1,6 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import Map from "@/components/Map.vue";
+import EventBus from "js-event-bus";
+window.eventBus = new EventBus();
 </script>
 
 <template lang="pug">
